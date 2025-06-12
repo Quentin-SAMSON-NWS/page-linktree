@@ -1,0 +1,120 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  background: #000e87;
+  background: radial-gradient(
+    circle,
+    rgba(0, 14, 135, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.presentation {
+  display: flex;
+  width: 85%;
+  background: linear-gradient(#0f0e0e, #0f0e0e) padding-box,
+    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  padding: 2.5em 2.5em;
+  font-size: 14px;
+  font-family: inherit;
+  color: whitesmoke;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 26px;
+  margin: auto;
+  margin-top: 5em;
+  flex-direction: column;
+  margin-bottom: 8em;
+}
+
+.Pres {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.Decr{
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-pres{
+
+}
+
+.reseaux_sociaux{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-pres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-pres .image-header {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin: 0 10px;
+}
+
+.image-header{
+    transition: all .2s ease-in-out;
+}
+
+.image-header:hover{
+    transform: scale(1.1);
+}
+
+.lien-autres{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+.menu {
+    
+    text-decoration: none;
+    color: aliceblue;
+    padding: 35%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    margin: 0.5em;
+    transition: all .2s ease-in-out;
+}
+
+.menu:hover{
+    transform: scale(1.1);
+    background-color: grey;
+
+}
